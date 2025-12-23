@@ -1,0 +1,62 @@
+.edit-cut-page {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.edit-cut-title {
+  font-size: 24px;
+  font-weight: 500;
+  color: #333;
+  margin: 0;
+}
+
+.edit-cut-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.empty-state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 20px;
+  min-height: 200px;
+}
+
+.empty-icon {
+  font-size: 48px;
+  margin-bottom: 16px;
+}
+
+.empty-text {
+  font-size: 14px;
+  color: #4a90e2;
+  text-align: center;
+}
+
+.orders-table-wrapper,
+.uncut-table-wrapper {
+  overflow-x: auto;
+  margin-bottom: 16px;
+}
+
+.uncut-filter {
+  display: flex;
+  gap: 16px;
+  align-items: flex-end;
+  margin-bottom: 24px;
+}
+
+.apply-button {
+  align-self: flex-end;
+}
+

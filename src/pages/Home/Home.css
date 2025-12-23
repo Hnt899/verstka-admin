@@ -1,0 +1,153 @@
+.home-page {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.home-directories {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 24px;
+  width: 100%;
+  max-width: calc(100% - 280px - 24px);
+  background-color: #FFFFFF;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.home-directories-title {
+  font-size: 26px;
+  font-weight: 580;
+  color: #333;
+  margin: 0;
+}
+
+.home-directories-buttons {
+  display: flex;
+  gap: 12px;
+}
+
+.directory-button {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+  padding: 12px 20px;
+  background-color: #e8f4fd;
+  border-radius: 10px;
+  border: 1px solid #E5F0F8;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  font-size: 16px;
+  font-weight: 700;
+  color: #333;
+  white-space: nowrap;
+  flex: 1;
+}
+
+.directory-button:hover {
+  background-color: #d0e8fc;
+}
+
+.directory-icon {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+}
+
+.home-content {
+  display: grid;
+  grid-template-columns: 1fr 280px;
+  gap: 24px;
+  align-items: start;
+}
+
+.home-main {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  background-color: #FFFFFF;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.home-section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.home-section-title {
+  font-size: 18px;
+  font-weight: 500;
+  color: #333;
+}
+
+.home-section-actions {
+  display: flex;
+  gap: 16px;
+}
+
+.home-link {
+  font-size: 14px;
+  color: #4a90e2;
+  text-decoration: none;
+}
+
+.home-link:hover {
+  text-decoration: underline;
+}
+
+.home-reports-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.home-reports {
+  background: white;
+  padding: 16px;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  height: fit-content;
+  margin-top: -180px;
+}
+
+.reports-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 16px;
+}
+
+.report-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  background-color: #e8f4fd;
+  border-radius: 13px;
+  font-size: 14px;
+  color: #2885C0;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.report-item:hover {
+  background-color: #d0e8fc;
+}
+
+.report-icon {
+  font-size: 18px;
+  color: #4a90e2;
+  font-weight: bold;
+}
+
+.home-pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+}
+

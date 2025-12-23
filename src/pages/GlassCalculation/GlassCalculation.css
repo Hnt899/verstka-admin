@@ -1,0 +1,77 @@
+.glass-calculation-page {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.back-link-wrapper {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.back-link {
+  background: none;
+  border: none;
+  color: #4a90e2;
+  cursor: pointer;
+  font-size: 14px;
+  text-decoration: underline;
+  padding: 0;
+}
+
+.back-link:hover {
+  color: #357abd;
+}
+
+.glass-calculation-title {
+  font-size: 24px;
+  font-weight: 500;
+  color: #333;
+  margin: 0;
+}
+
+.calculation-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.calculation-rows {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.calculation-row {
+  display: grid;
+  grid-template-columns: 2fr 1.5fr 1fr 1fr;
+  gap: 12px;
+  padding: 12px;
+  background-color: #f8f9fa;
+  border-radius: 4px;
+}
+
+.calculation-input,
+.calculation-select {
+  padding: 10px 12px;
+  border: 1px solid #d0d0d0;
+  border-radius: 4px;
+  font-size: 14px;
+  color: #333;
+  background-color: white;
+}
+
+.calculation-input:focus,
+.calculation-select:focus {
+  outline: none;
+  border-color: #4a90e2;
+}
+
+.calculation-select {
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg width='12' height='8' viewBox='0 0 12 8' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 1L6 6L11 1' stroke='%23333' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 12px center;
+  padding-right: 36px;
+}
+

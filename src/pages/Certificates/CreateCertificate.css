@@ -1,0 +1,146 @@
+.create-certificate-page {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.create-certificate-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #333;
+  margin: 0;
+  margin-bottom: 16px;
+}
+
+.create-form-wrapper {
+  background: #FFFFFF;
+  padding: 24px;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.create-certificate-page .form {
+  max-width: 1000px;
+}
+
+.create-certificate-page .form-group {
+  margin-bottom: 24px;
+}
+
+.create-certificate-page .form-label {
+  font-size: 16px;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.create-certificate-page .form-input {
+  border-radius: 8px;
+}
+
+.certificates-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  margin-bottom: 24px;
+}
+
+.certificate-section {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.section-title {
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+  margin: 0 0 8px 0;
+}
+
+.certificate-row {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.certificate-row .form-input {
+  flex: 1;
+}
+
+.upload-button {
+  padding: 10px 16px;
+  background-color: #e5f1f8;
+  color: #4a90e2;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background-color 0.2s;
+}
+
+.upload-button:hover {
+  background-color: #d0e8f8;
+}
+
+.remove-button {
+  width: 32px;
+  height: 32px;
+  border: none;
+  border-radius: 50%;
+  background-color: #dc3545;
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s;
+  flex-shrink: 0;
+}
+
+.remove-button:hover {
+  background-color: #c82333;
+}
+
+.add-certificate-link {
+  background: none;
+  border: none;
+  color: #4a90e2;
+  cursor: pointer;
+  font-size: 14px;
+  text-align: left;
+  padding: 0;
+  margin-top: 4px;
+  text-decoration: underline;
+}
+
+.add-certificate-link:hover {
+  color: #357abd;
+}
+
+.file-upload-row {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.file-upload-row .form-input {
+  flex: 1;
+}
+
+.files-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  margin-bottom: 24px;
+}
+
+.file-upload-item {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+

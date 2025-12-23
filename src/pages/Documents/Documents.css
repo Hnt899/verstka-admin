@@ -1,0 +1,15 @@
+.documents-page {
+  display: flex;
+  flex-direction: column;
+}
+
+.documents-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.generate-button {
+  margin-top: 8px;
+}
+

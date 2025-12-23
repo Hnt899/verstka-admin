@@ -1,0 +1,40 @@
+.create-frame-page {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.create-frame-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #333;
+  margin: 0;
+  margin-bottom: 16px;
+}
+
+.create-form-wrapper {
+  background: #FFFFFF;
+  padding: 24px;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.create-frame-page .form {
+  max-width: 800px;
+}
+
+.create-frame-page .form-group {
+  margin-bottom: 24px;
+}
+
+.create-frame-page .form-label {
+  font-size: 16px;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.create-frame-page .form-input {
+  border-radius: 8px;
+}
+

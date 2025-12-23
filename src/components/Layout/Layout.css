@@ -1,0 +1,30 @@
+.layout {
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.layout-content {
+  display: flex;
+  flex-direction: column;
+  transition: margin-left 0.3s ease, width 0.3s ease;
+  margin-left: 240px;
+  width: calc(100% - 240px);
+}
+
+.layout-content.sidebar-open {
+  margin-left: 240px;
+  width: calc(100% - 240px);
+}
+
+.layout-content.sidebar-collapsed {
+  margin-left: 60px;
+  width: calc(100% - 60px);
+}
+
+.main-content {
+  flex: 1;
+  padding: 24px;
+  background-color: #f5f5f5;
+}
+

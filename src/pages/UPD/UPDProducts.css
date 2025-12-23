@@ -1,0 +1,17 @@
+.upd-products {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.upd-products-table-wrapper {
+  overflow-x: auto;
+}
+
+.upd-products-total {
+  padding: 12px 0;
+  font-size: 14px;
+  font-weight: 500;
+  color: #4a90e2;
+}
+

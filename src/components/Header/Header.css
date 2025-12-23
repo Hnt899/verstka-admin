@@ -1,0 +1,62 @@
+.header {
+  background-color: transparent;
+  padding: 0 24px;
+  border-bottom: none;
+  min-height: auto;
+}
+
+.header-top {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 0;
+}
+
+.header-top .breadcrumbs {
+  margin-top: 24px;
+  padding-top: 24px;
+}
+
+.breadcrumbs {
+  font-size: 14px;
+  color: #666;
+}
+
+.breadcrumb-separator {
+  margin: 0 4px;
+  color: #999;
+}
+
+.breadcrumb-active {
+  color: #4a90e2;
+  font-weight: 500;
+}
+
+.breadcrumb-link {
+  color: #666;
+  text-decoration: none;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.breadcrumb-link:hover {
+  color: #4a90e2;
+  text-decoration: underline;
+}
+
+.header-welcome {
+  font-size: 26px;
+  font-weight: 580;
+  color: #333;
+  margin: 0;
+  margin-top: 24px;
+}
+
+.header-title {
+  font-size: 24px;
+  font-weight: 500;
+  color: #333;
+  margin-top: 12px;
+  margin-bottom: 0;
+}
+

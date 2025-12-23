@@ -1,0 +1,105 @@
+.create-price-list-page {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.create-price-list-page .card {
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.create-price-list-title {
+  font-size: 24px;
+  font-weight: 500;
+  color: #333;
+  margin: 0;
+}
+
+.price-list-form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.form-row-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+.form-section {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 16px;
+  background-color: #f8f9fa;
+  border-radius: 4px;
+}
+
+.section-header {
+  margin-bottom: 8px;
+}
+
+.section-title {
+  font-size: 16px;
+  font-weight: 500;
+  color: #333;
+  margin: 0;
+}
+
+.repeatable-row {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.repeatable-row .form-input {
+  flex: 1;
+}
+
+.repeatable-row select.form-input {
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg width='12' height='8' viewBox='0 0 12 8' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 1L6 6L11 1' stroke='%23333' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 12px center;
+  padding-right: 36px;
+}
+
+.remove-button {
+  width: 32px;
+  height: 32px;
+  border: none;
+  background-color: #e8f4fd;
+  color: #4a90e2;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s;
+  flex-shrink: 0;
+}
+
+.remove-button:hover {
+  background-color: #d0e8fc;
+}
+
+.add-link {
+  background: none;
+  border: none;
+  color: #4a90e2;
+  cursor: pointer;
+  font-size: 14px;
+  text-decoration: underline;
+  padding: 8px 0;
+  text-align: left;
+  transition: color 0.2s;
+}
+
+.add-link:hover {
+  color: #357abd;
+}
+

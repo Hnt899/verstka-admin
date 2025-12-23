@@ -1,0 +1,28 @@
+.create-client-page {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.create-client-title {
+  font-size: 24px;
+  font-weight: 500;
+  color: #333;
+  margin: 0;
+  margin-bottom: 24px;
+}
+
+.create-client-tabs-wrapper {
+  background: #FFFFFF;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  padding: 16px 20px;
+}
+
+.create-client-content-wrapper {
+  background: #FFFFFF;
+  padding: 24px;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+

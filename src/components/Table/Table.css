@@ -1,0 +1,162 @@
+.table-wrapper {
+  background: white;
+  border-radius: 4px;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table thead {
+  background-color: #e8f4fd;
+}
+
+.table th {
+  padding: 12px 16px;
+  text-align: left;
+  font-weight: 500;
+  font-size: 14px;
+  color: #333;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.table th:last-child,
+.table td:last-child {
+  text-align: right;
+}
+
+.table-header-content {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.table-sort-icon {
+  font-size: 14px;
+  color: #666;
+  cursor: pointer;
+  margin-left: 4px;
+}
+
+.table-search-icon {
+  width: 10px;
+  height: 10px;
+  cursor: pointer;
+  margin-left: 4px;
+  object-fit: contain;
+  display: inline-block;
+}
+
+.table tbody tr {
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.table tbody tr:hover {
+  background-color: #f8f9fa;
+}
+
+.table td {
+  padding: 12px 16px;
+  font-size: 14px;
+  color: #333;
+}
+
+.table-checkbox {
+  width: 40px;
+  text-align: center;
+}
+
+.table-checkbox input[type="checkbox"] {
+  cursor: pointer;
+  width: 18px;
+  height: 18px;
+  accent-color: #4a90e2;
+}
+
+.table-actions {
+  display: flex;
+  gap: 8px;
+  justify-content: flex-end;
+}
+
+.action-button {
+  width: auto;
+  height: auto;
+  border: none;
+  border-radius: 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.2s;
+  padding: 0;
+  background: transparent;
+}
+
+.action-button:hover {
+  opacity: 0.8;
+}
+
+.action-button img {
+  width: 30px;
+  height: 30px;
+  display: block;
+}
+
+.action-button.edit {
+  background-color: transparent;
+}
+
+.action-button.edit:hover {
+  opacity: 0.8;
+}
+
+.action-button.delete {
+  background-color: transparent;
+}
+
+.action-button.delete:hover {
+  opacity: 0.8;
+}
+
+.payment-header {
+  background-color: #e8f0f8;
+}
+
+.payment-cell {
+  text-align: center;
+  font-weight: 500;
+}
+
+.payment-cell.paid {
+  background-color: #e8f8e8;
+  color: #155724;
+}
+
+.payment-cell.unpaid {
+  background-color: #f8e8e8;
+  color: #721c24;
+}
+
+.table-checkbox input[type="checkbox"] {
+  cursor: pointer;
+  width: 18px;
+  height: 18px;
+  accent-color: #4a90e2;
+}
+
+.table-checkbox input[type="checkbox"]:checked {
+  accent-color: #4a90e2;
+}
+
+.table-total-cell {
+  white-space: nowrap;
+}
+
+.table-nowrap-cell {
+  white-space: nowrap;
+}
+

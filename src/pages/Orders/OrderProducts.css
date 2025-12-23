@@ -1,0 +1,106 @@
+.order-products {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.products-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.products-title {
+  font-size: 18px;
+  font-weight: 500;
+  color: #333;
+  margin: 0;
+}
+
+.products-actions {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.action-link {
+  background: none;
+  border: none;
+  color: #4a90e2;
+  cursor: pointer;
+  font-size: 14px;
+  text-decoration: underline;
+  padding: 0;
+}
+
+.action-link:hover {
+  color: #357abd;
+}
+
+.xlsx-button {
+  padding: 8px 16px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.xlsx-button:hover {
+  background-color: #218838;
+}
+
+.products-table-wrapper {
+  overflow-x: auto;
+}
+
+.empty-state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 20px;
+  min-height: 400px;
+}
+
+.empty-icon {
+  font-size: 64px;
+  margin-bottom: 16px;
+}
+
+.empty-text {
+  font-size: 16px;
+  color: #4a90e2;
+  text-align: center;
+}
+
+.products-total {
+  padding: 12px 0;
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+}
+
+.save-button {
+  align-self: flex-start;
+  margin-top: 8px;
+}
+
+.action-button.print {
+  background-color: #4a90e2;
+  color: white;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.action-button.print svg {
+  width: 16px;
+  height: 16px;
+}
+

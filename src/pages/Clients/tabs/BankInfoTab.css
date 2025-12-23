@@ -1,0 +1,25 @@
+.bank-info-tab {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.bank-info-tab .form-grid-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+.bank-info-tab .form-group.full-width {
+  grid-column: 1 / -1;
+}
+
+.bank-info-tab .form-group.date-group {
+  grid-column: span 1;
+}
+
+.bank-info-tab textarea.form-input {
+  resize: vertical;
+  min-height: 100px;
+}
+
