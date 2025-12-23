@@ -5,7 +5,7 @@ interface UPDProductsProps {
   id: string
 }
 
-export default function UPDProducts({ id }: UPDProductsProps) {
+export default function UPDProducts({}: UPDProductsProps) {
   const columns = [
     { key: 'number', label: '№' },
     { key: 'name', label: 'Наименование товара' },

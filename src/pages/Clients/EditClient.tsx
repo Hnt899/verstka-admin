@@ -1,8 +1,6 @@
 import { useState } from 'react'
-import { useNavigate, useParams } from 'react-router-dom'
 import Tabs from '../../components/Tabs/Tabs'
 import Table from '../../components/Table/Table'
-import Card from '../../components/Card/Card'
 import ClientInfoTab from './tabs/ClientInfoTab'
 import LegalAddressTab from './tabs/LegalAddressTab'
 import ConsigneeAddressTab from './tabs/ConsigneeAddressTab'
@@ -12,8 +10,6 @@ import BalancesTab from './tabs/BalancesTab'
 import './EditClient.css'
 
 export default function EditClient() {
-  const navigate = useNavigate()
-  const { id } = useParams<{ id: string }>()
   const [topActiveTab, setTopActiveTab] = useState('contracts')
   const [bottomActiveTab, setBottomActiveTab] = useState('client-info')
 

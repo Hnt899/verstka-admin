@@ -9,7 +9,7 @@ import './EditCut.css'
 export default function EditCut() {
   const navigate = useNavigate()
   const { id } = useParams<{ id: string }>()
-  const [hasOrders, setHasOrders] = useState(false)
+  const [hasOrders] = useState(false)
   const [hasUncutOrders, setHasUncutOrders] = useState(false)
 
   const ordersColumns = [

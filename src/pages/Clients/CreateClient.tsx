@@ -1,8 +1,5 @@
 import { useState } from 'react'
-import { useNavigate } from 'react-router-dom'
 import Tabs from '../../components/Tabs/Tabs'
-import Card from '../../components/Card/Card'
-import DateRange from '../../components/DateRange/DateRange'
 import '../../components/Form/Form.css'
 import ClientInfoTab from './tabs/ClientInfoTab'
 import LegalAddressTab from './tabs/LegalAddressTab'
@@ -13,7 +10,6 @@ import BalancesTab from './tabs/BalancesTab'
 import './CreateClient.css'
 
 export default function CreateClient() {
-  const navigate = useNavigate()
   const [activeTab, setActiveTab] = useState('client-info')
 
   const tabs = [

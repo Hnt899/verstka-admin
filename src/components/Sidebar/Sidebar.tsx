@@ -10,7 +10,6 @@ import {
   OtherIcon,
   SettingsIcon,
   ExitIcon,
-  MenuIcon,
 } from './Icons'
 import './Sidebar.css'
 

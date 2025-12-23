@@ -1,5 +1,4 @@
 import { useState } from 'react'
-import { useNavigate } from 'react-router-dom'
 import Tabs from '../../components/Tabs/Tabs'
 import OrderDetails from './OrderDetails'
 import OrderProducts from './OrderProducts'
@@ -7,7 +6,6 @@ import ImportXlsxModal from './ImportXlsxModal'
 import './EditOrder.css'
 
 export default function EditOrder() {
-  const navigate = useNavigate()
   const [activeTab, setActiveTab] = useState('details')
   const [isImportModalOpen, setIsImportModalOpen] = useState(false)
   const orderNumber = 459

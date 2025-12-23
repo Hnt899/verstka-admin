@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
-import Card from '../../components/Card/Card'
 import DateRange from '../../components/DateRange/DateRange'
 import Table from '../../components/Table/Table'
 import Pagination from '../../components/Pagination/Pagination'

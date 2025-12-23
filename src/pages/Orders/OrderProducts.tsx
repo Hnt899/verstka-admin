@@ -1,10 +1,6 @@
 import { useState } from 'react'
-import { useNavigate } from 'react-router-dom'
 import Table from '../../components/Table/Table'
 import Pagination from '../../components/Pagination/Pagination'
-import Drawer from '../../components/Drawer/Drawer'
-import Modal from '../../components/Modal/Modal'
-import FileUpload from '../../components/FileUpload/FileUpload'
 import AddProductDrawer from './AddProductDrawer'
 import ReplaceFormulaModal from './ReplaceFormulaModal'
 import ImportXlsxModal from './ImportXlsxModal'
@@ -14,11 +10,10 @@ interface OrderProductsProps {
   orderNumber: number
 }
 
-export default function OrderProducts({ orderNumber }: OrderProductsProps) {
-  const navigate = useNavigate()
+export default function OrderProducts({}: OrderProductsProps) {
   const [currentPage, setCurrentPage] = useState(1)
   const totalPages = 10
-  const [hasProducts, setHasProducts] = useState(true)
+  const [hasProducts] = useState(true)
   const [isAddDrawerOpen, setIsAddDrawerOpen] = useState(false)
   const [isReplaceModalOpen, setIsReplaceModalOpen] = useState(false)
   const [isImportModalOpen, setIsImportModalOpen] = useState(false)

@@ -34,7 +34,7 @@ export default function TaskDetails({ taskId, onClose }: TaskDetailsProps) {
     { key: 'orderNumber', label: 'Подряд №' },
   ]
 
-  const glassData = Array.from({ length: 11 }, (_, i) => ({
+  const glassData = Array.from({ length: 11 }, () => ({
     number: '1',
     glass: '4MF (BR)',
     width: '2000',
