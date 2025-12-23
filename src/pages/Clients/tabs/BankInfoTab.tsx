@@ -1,7 +1,10 @@
+import { useNavigate } from 'react-router-dom'
 import '../../../components/Form/Form.css'
 import './BankInfoTab.css'
 
 export default function BankInfoTab() {
+  const navigate = useNavigate()
+
   return (
     <div className="bank-info-tab">
       <div className="form-grid-3">

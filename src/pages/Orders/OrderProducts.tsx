@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { useNavigate } from 'react-router-dom'
 import Table from '../../components/Table/Table'
 import Pagination from '../../components/Pagination/Pagination'
 import AddProductDrawer from './AddProductDrawer'
@@ -11,6 +12,7 @@ interface OrderProductsProps {
 }
 
 export default function OrderProducts({}: OrderProductsProps) {
+  const navigate = useNavigate()
   const [currentPage, setCurrentPage] = useState(1)
   const totalPages = 10
   const [hasProducts] = useState(true)
